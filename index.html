@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--COMENTARIO-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <!--COMENTARIO-->
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+    <!--COMENTARIO-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!--COMENTARIO-->
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"/>
+    <!--Style css Desktop-->
+    <link href="./css/desktop.css" rel="stylesheet" type="text/css" />
+    <!--Style css Mobile-->
+    <link href="./css/mobile.css" rel="stylesheet" type="text/css" />
+    <title>Genomax Page</title>
+  </head>
+  <body onload="myOnLoad();">
+    <header id="header" class="header">
+      <div class="header_logo">
+        <img src="./assets/logoGenomax.png" alt="logo" />
+      </div>
+      <menu class="header_menu">
+        <li><a href="#inicio" class="">Inicio</a></li>
+        <li><a href="#caracteristicas" class="">Caracteristicas</a></li>
+        <li><a href="#planes" class="">Planes</a></li>
+        <li><a href="#contact" class="">Contact</a></li>
+        <li><a href="#" class="">Login</a></li>
+      </menu>
+    </header>
+    <main class="container">
+      <section id="inicio" class="section section_one">
+        <div class="container_one">
+          <div class="texto_one"><h3>La tranquila de disponer <br><span>de toda su informacion, en todo lugar todo el tiempo</span></br></h3></div>
+          <div class="blob_one"></div>
+        </div>
+      </section>
+      
+      <section id="caracteristicas" class="section section_two">
+        <div class="celular"><img src="./assets/celular.png" alt=""></div>
+        <div class="modulos">
+            <div class="modulos_titulo">
+              <h3>NUESTROS MODULOS</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident accusantium minima ratione ducimus atque deleniti saepe eligendi quod earum iste repellendus impedit voluptatum tempore non, laborum quae quibusdam aliquid ipsam.</p>
+            </div>
+            
+            <div class="modulos_optiones">
+              <div class="modulo_option">
+                <span><img src="./assets/icons/icono-historias.svg" alt="hc"></span>
+                <h4>Historias clinicas</h4>
+              </div>
+              <div class="modulo_option">
+                <span><img src="./assets/icons/icono-inventario.svg" alt="in"></span>
+                <h4>Inventario</h4>
+              </div>
+              <div class="modulo_option">
+                <span><img src="./assets/icons/icono-citas.svg" alt="ct"></span>
+                <h4>Citas medicas</h4>
+              </div>
+              <div class="modulo_option">
+                <span><img src="./assets/icons/icono-facturacion.svg" alt="fc"></span>
+                <h4>Facturacion</h4>
+                
+              </div>
+              <div class="modulo_option">
+                <span><img src="./assets/icons/icono-contabilidad.svg" alt="hc"></span>
+                <h4>Contabilidad</h4>
+              </div>
+              <div class="modulo_option">
+                <span><img src="./assets/icons/icono-cartera.svg" alt="hc"></span>
+                <h4>Cartera</h4>
+              </div>
+              <div class="modulo_option">
+                <span><img src="./assets/icons/icono-historias.svg" alt="hc"></span>
+                <h4>Gerencia</h4>
+              </div>
+              <div class="modulo_option">
+                <span><img src="./assets/icons/icono-admisiones.svg" alt="hc"></span>
+                <h4>Admisiones</h4>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section id="planes" class="section section_three">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <h2 class="section_three-titulo_section">
+                ¡ENCUENTRA UN SOFTWARE A TU MEDIDA!
+              </h2>
+              <div class="section_three-content">
+                <div class="section_three-planes">
+                  <p class="section_three-planes-titulo">
+                    <span class="material-symbols-rounded"> rotate_right </span
+                    >Caracteristicas
+                  </p>
+                  <ul class="section_three-ventajas">
+                    <li class="section_three-ventajas-lista">
+                      Multiples sedes
+                    </li>
+                    <li class="section_three-ventajas-lista">
+                      Atención por video consulta
+                    </li>
+                    <li class="section_three-ventajas-lista">
+                      Personalizacion modelos historía clinica
+                    </li>
+                    <li class="section_three-ventajas-lista">
+                      Adaptable a diferentes dispositivos
+                    </li>
+                    <li class="section_three-ventajas-lista">
+                      Control de acceso por perfiles de usuario
+                    </li>
+                    <li class="section_three-ventajas-lista">
+                      Actualizaciones de ley
+                    </li>
+                    <li class="section_three-ventajas-lista">
+                      Desarrolo a la medida
+                    </li>
+                  </ul>
+                </div>
+                <div class="section_three-planes_1">
+                  <p class="section_three-planes-titulo_2">Essential</p>
+                  <ul class="section_three-certificadas">
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="section_three-planes_1">
+                  <p class="section_three-planes-titulo_3">Vital</p>
+                  <ul class="section_three-certificadas">
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="section_three-planes_1">
+                  <p class="section_three-planes-titulo_4">Pro</p>
+                  <ul class="section_three-certificadas">
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="section_three-planes_1">
+                  <p class="section_three-planes-titulo_5">Plus</p>
+                  <ul class="section_three-certificadas">
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <h2 class="section_three-titulo_section">
+                ¡ENCUENTRA UN SOFTWARE A TU MEDIDA!
+              </h2>
+              <div class="section_three-content">
+                <div class="section_three-planes">
+                  <p class="section_three-planes-titulo">
+                    <span class="material-symbols-rounded"> rotate_right </span
+                    >Caracteristicas
+                  </p>
+                  <ul class="section_three-ventajas">
+                    <li class="section_three-ventajas-lista">
+                      Multiples sedes
+                    </li>
+                    <li class="section_three-ventajas-lista">
+                      Atención por video consulta
+                    </li>
+                    <li class="section_three-ventajas-lista">
+                      Personalizacion modelos historía clinica
+                    </li>
+                    <li class="section_three-ventajas-lista">
+                      Adaptable a diferentes dispositivos
+                    </li>
+                    <li class="section_three-ventajas-lista">
+                      Control de acceso por perfiles de usuario
+                    </li>
+                    <li class="section_three-ventajas-lista">
+                      Actualizaciones de ley
+                    </li>
+                    <li class="section_three-ventajas-lista">
+                      Desarrolo a la medida
+                    </li>
+                  </ul>
+                </div>
+                <div class="section_three-planes_1">
+                  <p class="section_three-planes-titulo_2">Essential</p>
+                  <ul class="section_three-certificadas">
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="section_three-planes_1">
+                  <p class="section_three-planes-titulo_3">Vital</p>
+                  <ul class="section_three-certificadas">
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="section_three-planes_1">
+                  <p class="section_three-planes-titulo_4">Pro</p>
+                  <ul class="section_three-certificadas">
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="section_three-planes_1">
+                  <p class="section_three-planes-titulo_5">Plus</p>
+                  <ul class="section_three-certificadas">
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                    <li class="section_three-certificadas-lista">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section_four">
+        <div class="content">
+          <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+              <h3>Solicita tu cotización hoy</h3>
+              <form action="Enviar.php" method="post">
+                <p>
+                  <input
+                    type="text"
+                    class="section_four-icono"
+                    placeholder=" &#xf007;  nombre"
+                    name="fullname"
+                  />
+                </p>
+                <p>
+                  <input
+                    type="email"
+                    placeholder=" &#xf0e0;  Correo Electronico"
+                    name="email"
+                  />
+                </p>
+                <p>
+                  <input
+                    type="text"
+                    placeholder=" &#xf2bb;  Empresa"
+                    name="empresa"
+                  />
+                </p>
+                <p>
+                  <select class="Select" name="opciones" id="opciones">
+                    <option value="cargar_opciones();">Opciones</option>
+                  </select>
+                </p>
+                <p class="block">
+                  <textarea
+                    placeholder="Comentarios..."
+                    name="message"
+                    rows="3"
+                  ></textarea>
+                </p>
+                <p class="block">
+                  <button type="submit">Enviar</button>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+        <footer class="pie-pagina">
+          <div class="grupo-1">
+            <div class="box">
+              <figure>
+                <img
+                  src="./assets/logoGenomax.png"
+                  alt="logo"
+                  class="section_four-img"
+                />
+              </figure>
+            </div>
+            <div class="box">
+              <div class="red-social">
+                <a href="#" class="fa-brands fa-facebook"></a>
+                <a href="#" class="fa-brands fa-youtube"></a>
+                <p>@genomax.co</p>
+                <a href="#" class="fa-solid fa-location-dot"></a>
+                <p>Calle 60 carrera 34-24 Soledad</p>
+              </div>
+            </div>
+          </div>
+          <hr class="section_four-hr" />
+          <div class="grupo-2">
+            <small
+              >Copiright &copy; 2021 <b>Nexus it</b> | <b>Software</b> | Todos
+              los Derechos Reservados.</small
+            >
+          </div>
+        </footer>
+      </section>
+
+    </main>
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+        },
+      });
+    </script>
+  </body>
+</html>
